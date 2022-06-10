@@ -13,7 +13,11 @@ export const Another=()=>{
             <table className="table table-bordered col-lg-8 col-md-10 col-sm-12 shadow">
                 <thead>
                     <tr>
+<<<<<<< HEAD
                         <th>Resource id</th> 
+=======
+                        <th>Resource id</th>
+>>>>>>> 37900ea3c5e40747fa923dd8c47c186414c3320c
                         <th>Resource name</th>
                         <th>Resource issues</th>
                     </tr>

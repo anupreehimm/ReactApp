@@ -11,6 +11,10 @@ export const BootSample=()=>
             <i class="bi bi-bank2"></i>
             </button>
 
+<<<<<<< HEAD
         </> 
+=======
+        </>
+>>>>>>> 37900ea3c5e40747fa923dd8c47c186414c3320c
     )
 }
