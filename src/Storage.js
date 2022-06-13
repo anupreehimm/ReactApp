@@ -18,7 +18,7 @@ let records=[
 
     }
 ]
- const affect=()=>
+const affect=()=>
 {
     localStorage.setItem("warehouse",JSON.stringify(records))
 }
@@ -30,4 +30,9 @@ let records=[
 export const executeListing=()=>{
     loading()
     return records
+}
+export const executeCreating=(obj)=>{
+    loading()
+    records.push(obj)
+    affect()
 }
