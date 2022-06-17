@@ -28,7 +28,7 @@ const affect=()=>
     records=JSON.parse(tmp)
 }
 export const executeListing=()=>{
-    loading()
+    //loading()
     return records
 }
 export const executeCreating=(obj)=>{
